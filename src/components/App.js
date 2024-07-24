@@ -43,6 +43,25 @@ return (
                 </a>
               </li>
             </ul>
+
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" 
+                     href="https://linkedin.com/in/nishant-khandhar"
+                     target="blank"
+                     style={{ color: 'white', marginLeft: '920px' }}
+                >    Developed by: Nishant Khandhar
+                    <img
+                        src="./me.jpg"
+                        width="30"
+                        height="30"
+                        className="d-inline-block align-top"
+                        alt="logo"
+                        style={{ marginLeft: '15px', borderRadius: '50%' }}
+                    />
+                </a>
+              </li>
+            </ul>
         </nav>
 
         {/* <!-- Black with white text --> */}
