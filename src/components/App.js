@@ -24,6 +24,33 @@ function App() {
 
 return (
     <>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <img
+              src="./logo51.png"
+              width="40"
+              height="40"
+              className="d-inline-block align-top"
+              alt="logo"
+              style={{ marginLeft: '15px' }}
+            />
+
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                     style={{ color: 'white', fontSize:'20px' }}
+                    >Online Code Editor
+                </a>
+              </li>
+            </ul>
+        </nav>
+
+        {/* <!-- Black with white text --> */}
+        {/* <nav class="navbar navbar-expand-sm bg-dark navbar-dark">...</nav> */}
+
+        {/* <!-- Blue with white text --> */}
+        {/* <nav class="navbar navbar-expand-sm bg-primary navbar-dark">...</nav> */}
+
         <div className="pane top-pane">
             <Editor 
                 language = "xml"
