@@ -35,16 +35,16 @@ function App() {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand d-flex align-items-center" href="#">
                     <img
                         src="./logo51.png"
                         width="40"
                         height="40"
                         className="d-inline-block align-top"
                         alt="logo"
-                        style={{ marginLeft: '15px' }}
+                        style={{ marginRight: '10px', marginLeft: '10px' }}
                     />
-                    Online Code Editor
+                    <span>Online Code Editor</span>
                 </a>
                 <button
                     className="navbar-toggler"
@@ -59,23 +59,23 @@ function App() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className={`collapse navbar-collapse ${showCard ? 'd-none' : ''}`} id="navbarNav">
-                    <ul className="navbar-nav ml-auto">
+                    <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
                             <a
-                                className="nav-link"
+                                className="nav-link d-flex align-items-center"
                                 href="https://linkedin.com/in/nishant-khandhar"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{ color: 'white' }}
                             >
-                                Developed by: Nishant Khandhar
+                                <span>Developed by: <span style={{marginLeft: '4px'}}>Nishant Khandhar</span></span>
                                 <img
                                     src="./me.jpg"
                                     width="30"
                                     height="30"
-                                    className="d-inline-block align-top"
+                                    className="d-inline-block align-top ms-2"
                                     alt="profile"
-                                    style={{ marginLeft: '15px', borderRadius: '50%' }}
+                                    style={{ marginRight: '35px', marginLeft: '2px', borderRadius: '50%' }}
                                 />
                             </a>
                         </li>
@@ -93,17 +93,22 @@ function App() {
                                 target="_blank"
                                 style={{textDecoration: 'none', color:'white', marginLeft:'20px'}}
                             >
-                                <h5 className="card-title" style={{marginLeft:'4px'}}>Developed by</h5>
+                                <h5 className="card-title" style={{marginLeft:'2px'}}>Developed by</h5>
                                 <p className="card-text" >Nishant Khandhar</p>
                             </a>
-                            <img
-                                src="./me.jpg"
-                                width="50"
-                                height="50"
-                                className="d-inline-block align-top"
-                                alt="profile"
-                                style={{ marginLeft: '5px', marginTop: '10px', borderRadius: '50%' }}
-                            />
+                            <a 
+                                href="https://linkedin.com/in/nishant-khandhar"
+                                target="_blank"
+                            >
+                                <img
+                                    src="./me.jpg"
+                                    width="50"
+                                    height="50"
+                                    className="d-inline-block align-top"
+                                    alt="profile"
+                                    style={{ marginLeft: '5px', marginTop: '10px', borderRadius: '50%' }}
+                                />
+                            </a>
                         </div>
                     </div>
                 </div>
