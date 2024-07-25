@@ -88,15 +88,21 @@ function App() {
                     <div className="card mt-4">
                         <div className="card-body text-center">
                             <button type="button" className="btn-close float-end" aria-label="Close" onClick={closeCard}></button>
-                            <h5 className="card-title">Developed by:</h5>
-                            <p className="card-text">Nishant Khandhar</p>
+                            <a 
+                                href="https://linkedin.com/in/nishant-khandhar"
+                                target="_blank"
+                                style={{textDecoration: 'none', color:'white', marginLeft:'20px'}}
+                            >
+                                <h5 className="card-title" style={{marginLeft:'4px'}}>Developed by</h5>
+                                <p className="card-text" >Nishant Khandhar</p>
+                            </a>
                             <img
                                 src="./me.jpg"
                                 width="50"
                                 height="50"
                                 className="d-inline-block align-top"
                                 alt="profile"
-                                style={{ marginLeft: '15px', borderRadius: '50%' }}
+                                style={{ marginLeft: '5px', marginTop: '10px', borderRadius: '50%' }}
                             />
                         </div>
                     </div>
